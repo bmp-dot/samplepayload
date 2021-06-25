@@ -1,0 +1,69 @@
+{
+    "spec": {
+        "app_name": "8-2211",
+        "app_description": "REST API",
+        "app_profile_reference": {
+            "uuid": "abe58561-5745-40f1-aef1-29c593ac5f15"
+        },
+            "runtime_editables": {
+          "substrate_list": [
+            {
+              "description": "",
+              "uuid": "5214fc2d-7a8f-476a-a480-c51be863cb2b",
+              "value": {
+                "spec": {
+                  "name": "CHANGEME",
+                  "resources": {
+                    "num_sockets": 2,
+                    "boot_config": {
+                      "boot_device": {
+                        "disk_address": {
+                          "device_index": 0,
+                          "adapter_type": "SCSI"
+                        }
+                      }
+                    },
+                    "disk_list": {
+                      "0": {
+                        "data_source_reference": {
+                          "kind": "image",
+                          "name": "CentOS-8.2.2004-20200611.2",
+                          "uuid": "beb610c1-d1f3-4acf-bcef-8099d519bb51"
+                        },
+
+                        "device_properties": {
+                            "device_type": "DISK",
+                            "disk_address": {
+                              "device_index": 0,
+                              "adapter_type": "SCSI"
+                            }
+                          },
+
+                          "disk_size_mib": 0,
+                          "volume_group_reference": null  
+                      },
+
+                      "1": {
+                        "data_source_reference": null,
+                        "device_properties": {
+                          "device_type": "DISK",
+                          "disk_address": {
+                            "device_index": 1,
+                            "adapter_type": "SCSI"
+                          }
+                        },
+                        "disk_size_mib": 102400,
+                        "volume_group_reference": null}
+
+
+
+
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+  }
